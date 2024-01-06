@@ -10,10 +10,10 @@ class Solution:
                     return False
             return True
         
-        c=0
+        ans=0
         for word in words:
             if is_sub(word):
-                c+=1
+                ans+=1
         
-        return c
+        return ans
         
